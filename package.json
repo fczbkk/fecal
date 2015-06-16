@@ -1,8 +1,7 @@
 {
   "name": "fecal",
-  "version": "1.0.0",
-  "description": "Simple JavaScript library for people who frequently mistype Array methods `pop()`, `shift()` and `unshift()` or other.",
-  "author": "Riki Fridrich <riki@fczbkk.com> (https://github.com/fczbkk)",
+  "version": "1.1.0",
+  "description": "Simple JavaScript library for people who frequently mistype `JSON.parse()` and Array methods `pop()`, `shift()`, and `unshift()` or other.",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -14,9 +13,15 @@
     "poop",
     "shit",
     "unshit",
+    "arse",
     "lick"
   ],
   "author": "Riki Fridrich <riki@fczbkk.com> (http://fczbkk.com/)",
+  "contributors": [
+    "Riki Fridrich <riki@fczbkk.com> (http://fczbkk.com/)",
+    "Ondrej Zara <ondras@zarovi.cz> (http://ondras.zarovi.cz/)",
+    "Robin Pokorný <me@robinpokorny.com> (http://robinpokorny.com/)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fczbkk/fecal/issues"
