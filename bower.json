@@ -1,7 +1,7 @@
 
 {
   "name": "fecal",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple JavaScript library for people who frequently mistype `JSON.parse()` and Array methods `pop()`, `shift()`, and `unshift()`.",
   "main": "index.js",
   "repository": {
