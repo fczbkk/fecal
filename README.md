@@ -16,6 +16,12 @@ Simply include the `lib/fecal.js` file in your document...
 
 Isn't it great?
 
+## Inspiration and thanks
+
+It all started with [this tweet](https://twitter.com/fczbkk/status/610708178154725376).
+
+Thanks to [@robinpokorny](https://github.com/robinpokorny) and [@ondras](https://github.com/ondras).
+
 ## Bug reports, feature requests and contact
 
 If you found any bugs, if you have feature requests or any questions, please, either [file an issue at GitHub](https://github.com/fczbkk/fecal/issues) or send me an e-mail at [riki@fczbkk.com](mailto:riki@fczbkk.com).
