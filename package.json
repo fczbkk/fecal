@@ -1,7 +1,7 @@
 {
   "name": "fecal",
   "version": "1.0.0",
-  "description": "Simple JavaScript library for people who frequently mistype Array methods `pop()`, `shift()` and `unshift()`.",
+  "description": "Simple JavaScript library for people who frequently mistype Array methods `pop()`, `shift()` and `unshift()` or other.",
   "author": "Riki Fridrich <riki@fczbkk.com> (https://github.com/fczbkk)",
   "main": "index.js",
   "repository": {
@@ -13,7 +13,8 @@
     "fecal",
     "poop",
     "shit",
-    "unshit"
+    "unshit",
+    "lick"
   ],
   "author": "Riki Fridrich <riki@fczbkk.com> (http://fczbkk.com/)",
   "license": "MIT",
