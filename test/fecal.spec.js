@@ -15,6 +15,21 @@ describe('Fecal.js', function () {
 
   });
 
+  describe('Array.poop', function () {
+
+    it('should be defined', function () {
+      expect(Array.poop).toBeDefined()
+    });
+
+    it('should do exactly the same as `Array.pop()`', function () {
+      var test_array = ['aaa', 'bbb'];
+      var result = Array.poop(test_array);
+      expect(result).toEqual('bbb');
+      expect(test_array).toEqual(['aaa']);
+    });
+
+  });
+
   describe('Array.prototype.shit', function () {
 
     it('should be defined', function () {
@@ -30,6 +45,21 @@ describe('Fecal.js', function () {
 
   });
 
+  describe('Array.shit', function () {
+
+    it('should be defined', function () {
+      expect(Array.shit).toBeDefined()
+    });
+
+    it('should do exactly the same as `Array.shift()`', function () {
+      var test_array = ['aaa', 'bbb'];
+      var result = Array.shit(test_array);
+      expect(result).toEqual('aaa');
+      expect(test_array).toEqual(['bbb']);
+    });
+
+  });
+
   describe('Array.prototype.unshit', function () {
 
     it('should be defined', function () {
@@ -39,6 +69,21 @@ describe('Fecal.js', function () {
     it('should do exactly the same as `Array.prototype.unshift()`', function () {
       var test_array = ['bbb'];
       var result = test_array.unshit('aaa');
+      expect(result).toEqual(2);
+      expect(test_array).toEqual(['aaa', 'bbb']);
+    });
+
+  });
+
+  describe('Array.unshit', function () {
+
+    it('should be defined', function () {
+      expect(Array.unshit).toBeDefined()
+    });
+
+    it('should do exactly the same as `Array.unshift()`', function () {
+      var test_array = ['bbb'];
+      var result = Array.unshit(test_array, 'aaa');
       expect(result).toEqual(2);
       expect(test_array).toEqual(['aaa', 'bbb']);
     });

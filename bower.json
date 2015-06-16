@@ -16,7 +16,10 @@
     "shit",
     "unshit"
   ],
-  "author": "Riki Fridrich <riki@fczbkk.com> (http://fczbkk.com/)",
+  "authors": [
+    "Riki Fridrich <riki@fczbkk.com> (http://fczbkk.com/)",
+    "Ondrej Zara <ondras@zarovi.cz> (http://ondras.zarovi.cz/)"
+  ],
   "license": "MIT",
   "ignore": [
     "**/.*",

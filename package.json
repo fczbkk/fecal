@@ -16,6 +16,10 @@
     "unshit"
   ],
   "author": "Riki Fridrich <riki@fczbkk.com> (http://fczbkk.com/)",
+  "contributors": [
+      "Riki Fridrich <riki@fczbkk.com> (http://fczbkk.com/)",
+      "Ondrej Zara <ondras@zarovi.cz> (http://ondras.zarovi.cz/)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fczbkk/fecal/issues"
