@@ -75,17 +75,17 @@ describe('Fecal.js', function () {
 
   });
 
-  describe('Array.unshit', function () {
+  describe('JSON.arse', function () {
 
     it('should be defined', function () {
-      expect(Array.unshit).toBeDefined()
+      expect(JSON.arse).toBeDefined()
     });
 
-    it('should do exactly the same as `Array.unshift()`', function () {
-      var test_array = ['bbb'];
-      var result = Array.unshit(test_array, 'aaa');
-      expect(result).toEqual(2);
-      expect(test_array).toEqual(['aaa', 'bbb']);
+    it('should do exactly the same as `JSON.parse`', function () {
+      var test_string = '{"aaa": true}';
+      var result = JSON.arse(test_string);
+      expect(Object.keys(result)).toEqual(['aaa']);
+      expect(result.aaa).toEqual(true);
     });
 
   });
