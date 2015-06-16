@@ -91,6 +91,3 @@ describe('Fecal.js', function () {
   });
 
 });
-
-
-alert('test');
