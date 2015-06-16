@@ -28,4 +28,4 @@ If you found any bugs, if you have feature requests or any questions, please, ei
 
 ## License
 
-Element Monitor is published under the [MIT license](https://github.com/fczbkk/fecal/blob/master/LICENSE).
+Fecal.js is published under the [MIT license](https://github.com/fczbkk/fecal/blob/master/LICENSE).
