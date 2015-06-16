@@ -45,6 +45,21 @@ describe('Fecal.js', function () {
 
   });
 
+  describe('JSON.arse', function () {
+
+    it('should be defined', function () {
+      expect(JSON.arse).toBeDefined()
+    });
+
+    it('should do exactly the same as `JSON.parse`', function () {
+      var test_string = '{"aaa": true}';
+      var result = JSON.arse(test_string);
+      expect(Object.keys(result)).toEqual(['aaa']);
+      expect(result.aaa).toEqual(true);
+    });
+
+  });
+
 });
 
 

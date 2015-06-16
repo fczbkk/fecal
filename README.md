@@ -1,6 +1,6 @@
 # Fecal.js
 
-Simple JavaScript library for people who frequently mistype Array methods `pop()`, `shift()` and `unshift()`.
+Simple JavaScript library for people who frequently mistype `JSON.parse()` and Array methods `pop()`, `shift()`, and `unshift()`.
 
 ![Fecal.js logo](assets/fecal.js.png)
 
@@ -12,7 +12,7 @@ Simply include the `lib/fecal.js` file in your document...
 <script src="lib/fecal.js"></script>
 ```
 
-...and it just works. Whenever you mistype the Array methods `pop()`, `shift()` or `unshift()`, everything will work as intended, no errors thrown.
+...and it just works. Whenever you mistype `JSON.parse()` or the Array methods `pop()`, `shift()`, or `unshift()`, everything will work as intended, no errors thrown.
 
 Isn't it great?
 
