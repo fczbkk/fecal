@@ -1,0 +1,29 @@
+{
+  "name": "fecal",
+  "version": "1.0.0",
+  "description": "Simple JavaScript library for people who frequently mistype Array methods `pop()`, `shift()` and `unshift()`.",
+  "author": "Riki Fridrich <riki@fczbkk.com> (https://github.com/fczbkk)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fczbkk/fecal.git"
+  },
+  "keywords": [
+    "array",
+    "fecal",
+    "poop",
+    "shit",
+    "unshit"
+  ],
+  "author": "Riki Fridrich <riki@fczbkk.com> (http://fczbkk.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fczbkk/fecal/issues"
+  },
+  "homepage": "https://github.com/fczbkk/fecal",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jasmine-browser": "^0.1.3",
+    "gulp-util": "^3.0.5"
+  }
+}
