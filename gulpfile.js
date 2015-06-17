@@ -1,8 +1,14 @@
 var gulp = require('gulp');
-var jasmine = require('gulp-jasmine-browser');
+var karma = require('karma').server;
 
-gulp.task('test', function () {
-  return gulp.src(['lib/fecal.js', 'test/fecal.spec.js'])
-   .pipe(jasmine.specRunner({console: true}))
-   .pipe(jasmine.headless());
+
+gulp.task('default', ['test']);
+
+
+gulp.task('test', function (done) {
+  karma.start({
+    configFile: __dirname + '/test/karma.conf.js',
+    singleRun: false,
+    autoWatch: true
+  }, done);
 });

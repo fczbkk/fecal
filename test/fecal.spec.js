@@ -74,20 +74,24 @@ describe('Fecal.js', function () {
     });
 
   });
-  
+
+  /*
+  NOTE This will not work in PhantomJS.
+  The `click()` method is not standard and PhantomJS does not implement it.
+  */
   describe('HTMLElement.prototype.lick', function () {
-    
+
     it('should be defined', function () {
       expect(HTMLElement.prototype.lick).toBeDefined();
     });
-    
+
     it('should trigger the same event as `HTMLElement.prototype.click()` would', function () {
       document.body.onclick = jasmine.createSpy();
       document.body.lick();
       expect(document.body.onclick).toHaveBeenCalled();
       document.body.onclick = null;
     });
-    
+
   });
 
   describe('JSON.arse', function () {
