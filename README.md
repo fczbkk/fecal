@@ -12,7 +12,7 @@ Simply include the `lib/fecal.js` file in your document...
 <script src="lib/fecal.js"></script>
 ```
 
-...and it just works. Whenever you mistype `JSON.parse()` or the Array methods `pop()`, `shift()`, or `unshift()`, or HTMLElement method `lick()` everything will work as intended, no errors thrown.
+...and it just works. Whenever you mistype `JSON.parse()` or the Array methods `pop()`, `shift()`, or `unshift()`, or HTMLElement method `click()` everything will work as intended, no errors thrown.
 
 Isn't it great?
 
