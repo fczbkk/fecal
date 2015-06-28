@@ -132,4 +132,22 @@ describe('Fecal.js', function () {
 
   });
 
+  describe('Math', function () {
+
+    describe('.squirt', function () {
+
+      it('should be defined', function () {
+        expect(Math.squirt).toBeDefined()
+      });
+
+      it('should do exactly the same as `Math.sqrt`', function () {
+        var expectation = Math.sqrt(2);
+        var result = Math.squirt(2);
+        expect(result).toEqual(expectation);
+      });
+
+    });
+
+  });
+
 });
