@@ -150,4 +150,16 @@ describe('Fecal.js', function () {
 
   });
 
+  describe('RegExp', function () {
+
+    describe('.prototype.fags', function () {
+
+      it('should do exactly the same as `RegExp.prototype.flags`', function () {
+        expect(RegExp.prototype.fags).toEqual(RegExp.prototype.flags);
+      });
+
+    });
+
+  });
+
 });
