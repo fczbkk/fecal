@@ -12,9 +12,25 @@ Simply include the `lib/fecal.js` file in your document...
 <script src="lib/fecal.js"></script>
 ```
 
-...and it just works. Whenever you mistype `JSON.parse()` or the Array methods `pop()`, `shift()`, or `unshift()`, or HTMLElement method `click()` everything will work as intended, no errors thrown.
+...and it just works. Whenever you do a freudian mistype in your code, everything will work as intended, no errors thrown.
 
 Isn't it great?
+
+## Supported typos
+
+- Array
+  - [`poop()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+  - [`shit()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
+  - [`unshit()`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)
+- HTMLElement
+  - [`lick()`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/click)
+- JSON
+  - [`arse()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
+  - [`prase()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) - means "pig" in Czech
+- Math
+  - [`squirt()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt)
+- RegExp
+  - [`fags()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/flags)
 
 ## Inspiration and thanks
 
